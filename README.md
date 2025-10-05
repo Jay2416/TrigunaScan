@@ -1,4 +1,4 @@
-# 🧠 TriguṇaScan: Personality Analysis & Recommendation Engine
+# 🧠 TriguṇaScan: Intelligent Personality Insight Platform
 
 **TriguṇaScan** is a web application that helps users discover their dominant personality traits based on the ancient **Sāṁkhya philosophy** of the three **Guṇas**:  
 - 🕊️ **Sattva** — Harmony, purity, wisdom  
