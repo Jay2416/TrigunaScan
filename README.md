@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 TriguṇaScan: Personality Analysis & Recommendation Engine
 
-## Getting Started
+**TriguṇaScan** is a web application that helps users discover their dominant personality traits based on the ancient **Sāṁkhya philosophy** of the three **Guṇas**:  
+- 🕊️ **Sattva** — Harmony, purity, wisdom  
+- 🔥 **Rajas** — Passion, action, drive  
+- 🌑 **Tamas** — Inertia, ignorance, darkness  
 
-First, run the development server:
+Through an **interactive questionnaire**, TriguṇaScan analyzes users' responses and provides a detailed personality profile. The platform also offers **personalized recommendations** and **progress tracking** to guide users toward a more balanced, **Sāttvic** state of being.
+
+---
+
+## ✨ Key Features
+
+- 🧩 **Interactive Questionnaire:**  
+  A comprehensive set of questions designed to accurately determine the user's dominant Guna.
+
+- 📊 **Detailed Personality Analysis:**  
+  View a breakdown of Sattva, Rajas, and Tamas percentages with insights into your personality profile.
+
+- 📈 **Personalized Dashboard:**  
+  A secure, user-specific dashboard to view your results and track changes over time.
+
+- 🌱 **Actionable Recommendations:**  
+  Get tailored lifestyle advice, habits, and practices to cultivate more Sattva guna.
+
+- 🔐 **Secure Authentication:**  
+  User registration and login ensure data privacy and a personalized experience.
+
+- 💾 **Data Persistence:**  
+  User data and results are securely stored in a **MongoDB** database.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | [Next.js](https://nextjs.org/) (with App Router), React, TypeScript, Tailwind CSS |
+| **Backend** | Next.js API Routes |
+| **Database** | MongoDB (Managed with MongoDB Compass) |
+| **Authentication** | NextAuth.js (or JWT-based auth) |
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally for development and testing.
+
+### ✅ Prerequisites
+
+Ensure the following are installed:
+
+- [Node.js](https://nodejs.org/) (v18 or later)
+- npm or yarn
+- [MongoDB](https://www.mongodb.com/) installed and running locally
+
+---
+
+### 📦 Installation
+
+1. **Clone the repository:**
 
 ```bash
+git clone https://github.com/your-username/trigunaScan.git
+cd trigunaScan
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔮 Future Scope
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📈 **Visual Progress Tracking:**
+Add charts and graphs to the dashboard to visualize the user's journey over time.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🏆 **Gamification:**
+Introduce badges, streaks, and points to encourage consistent engagement.
 
-## Learn More
+👥 **Community Hub:**
+Build a space for users to discuss their experiences and share personal growth tips.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📚 **Resource Library:**
+Curated articles, videos, and books on the three Gunas and holistic personal development.
